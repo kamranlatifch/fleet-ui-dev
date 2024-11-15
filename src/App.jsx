@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className='bg-gray-400 font-dmSans'>Fleet Project</h1>
+      <h1 className='bg-gray-400 '>Fleet Project</h1>
     </>
   );
 }
