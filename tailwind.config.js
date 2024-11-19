@@ -33,9 +33,10 @@ module.exports = {
         ashGray: '#23262F',
         blackBg: '#23262F',
 
-        textPrimary: '#0000000',
-        textSecondary: '#222222B2',
-        bgFooter: '#22222208',
+        textPrimary: '#23262F',
+        textPrimaryDark: '#353945',
+        textSecondary: '#777E90',
+        textBase: '#FCFCFD',
 
         textBase: '#FFFFFF',
       },
