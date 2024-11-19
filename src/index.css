@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  h1 {
+    @apply font-bold font-dmSans text-[4rem] text-textPrimary;
+  }
+  h2 {
+    @apply font-dmSans font-bold text-[40px] text-textPrimary;
+  }
+  h3 {
+    @apply font-poppins font-semibold text-2xl text-textPrimary;
+  }
+  p {
+    @apply font-poppins text-sm font-normal text-textSecondary;
+  }
+  .sub__title {
+    @apply font-poppins font-normal text-base text-textSecondary;
+  }
+  /*  */
+}

@@ -11,7 +11,8 @@ module.exports = {
     },
 
     screens: {
-      xs: '350px',
+      xs: '325px',
+      sm: '375px',
       md: '768px',
       lg: '1024px',
       xl: '1440px',
@@ -22,17 +23,26 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#381DDB',
-        secondary: '#222222',
-        textPrimary: '#0000000',
-        textSecondary: '#222222B2',
-        bgFooter: '#22222208',
+        primary: '#FCFCFD',
+        secondary: '#3B71FE',
+        tertiary: '#F4F5F6',
+        emeraldGreen: '#58C27D',
+        bluePeriwinkle: '#92A5EF',
+        yellowStar: '#FFD166',
+        skyBlue: '#8BC5E5',
+        ashGray: '#23262F',
+        blackBg: '#23262F',
+
+        textPrimary: '#23262F',
+        textPrimaryDark: '#353945',
+        textSecondary: '#777E90',
+        textBase: '#FCFCFD',
 
         textBase: '#FFFFFF',
       },
       borderColor: {
-        bgGray: '#A3A3A3',
-        alphaPurple: '#736DEE',
+        borderGray: '#E6E8EC',
+        borderBlack: '#23262F',
       },
       boxShadow: {
         [`soft`]: '-4px 4px 13px 0px rgba(0, 0, 0, 0.05)',
