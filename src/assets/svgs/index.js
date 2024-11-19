@@ -4,3 +4,6 @@ export { ArrowNextSvg } from './ArrowNextSvg';
 export { HamburgerSvg } from './HamburgerSvg';
 export { LoadingSvg } from './LoadingSvg';
 export { SearchSvg } from './SearchSvg';
+export { Logo } from './Logo';
+export { GlobeSvg } from './GlobeSvg';
+export { DropDown } from './DropDown';
