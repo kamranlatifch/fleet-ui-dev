@@ -7,3 +7,6 @@ export { SearchSvg } from './SearchSvg';
 export { Logo } from './Logo';
 export { GlobeSvg } from './GlobeSvg';
 export { DropDown } from './DropDown';
+export { AdventureResortSvg } from './AdventureResortSvg';
+export { AdventureCampingSvg } from './AdventureCampingSvg';
+export { AdventureSeaSvg } from './AdventureSeaSvg';
