@@ -21,5 +21,12 @@ body {
   .sub__title {
     @apply font-poppins font-normal text-base text-textSecondary;
   }
+
+  button {
+    @apply font-dmSans rounded-[90px] px-6 py-4 bg-secondary text-textBase;
+  }
+  .button2__wrapper {
+    @apply font-dmSans font-bold text-sm text-center;
+  }
   /*  */
 }

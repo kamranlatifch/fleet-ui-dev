@@ -49,7 +49,7 @@ const Navbar = () => {
           <HamburgerSvg />
 
           <div
-            className={`absolute bg-bluePeriwinkle rounded-lg p-4 right-[50%] ${
+            className={`absolute bg-bluePeriwinkle z-20 rounded-lg p-4 right-[50%] ${
               showNav ? '' : 'hidden'
             } `}
           >
