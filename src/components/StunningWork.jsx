@@ -55,7 +55,7 @@ const StunningWork = () => {
       </div>
       <div
         ref={scrollContainerRef}
-        className='flex gap-4 lg:gap-8 overflow-x-auto scroll-smooth justify-center scrollbar-hide'
+        className='flex gap-4 lg:gap-8 overflow-x-auto lg:justify-center scroll-smooth  scrollbar-hide'
       >
         {data.map((item) => (
           <div key={item.id}>
