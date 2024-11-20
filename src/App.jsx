@@ -1,4 +1,10 @@
-import { Navbar, Hero, AdventureCarousal, TravelCarousal } from '@components';
+import {
+  Navbar,
+  Hero,
+  AdventureCarousal,
+  TravelCarousal,
+  HowItWork,
+} from '@components';
 
 function App() {
   return (
@@ -7,6 +13,7 @@ function App() {
       <Hero />
       <AdventureCarousal />
       <TravelCarousal />
+      <HowItWork />
     </>
   );
 }

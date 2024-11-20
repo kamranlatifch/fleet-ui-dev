@@ -11,3 +11,5 @@ export { AdventureResortSvg } from './AdventureResortSvg';
 export { AdventureCampingSvg } from './AdventureCampingSvg';
 export { AdventureSeaSvg } from './AdventureSeaSvg';
 export { Star } from './Star';
+export { HowItWorkHR } from './HowItWorkHR';
+export { DashLine } from './DashLine';
