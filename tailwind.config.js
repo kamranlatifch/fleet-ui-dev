@@ -48,14 +48,19 @@ module.exports = {
       boxShadow: {
         [`soft`]: '-4px 4px 13px 0px rgba(0, 0, 0, 0.05)',
         cardShadow: '1px 12px 24px 0px rgba(0, 0, 0, 0.11)',
-        primaryShadow:
-          ' 0px 106.667px 106.667px -71.111px rgba(76, 86, 115, 0.08);',
+        primaryShadow: '0px 40px 64px -32px #0F0F0F1A',
+        mdCardShadow: 'box-shadow: 0px 40px 64px -32px #0F0F0F1A',
+      },
+
+      backdropBlur: {
+        32: '32px', // Add blur with a value of 32px
       },
 
       backgroundImage: {
         'signup-bg': "url('/src/assets/images/heroImage.png')",
         'custom-gradient':
           'linear-gradient(180deg, #F4F5F6 87.16%, rgba(244, 245, 246, 0) 137.55%)',
+
         'hero-gradiant':
           'linear-gradient(83.59deg, #FCFCFD 36.52%, rgba(252, 252, 253, 0.83) 98.8%)',
 

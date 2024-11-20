@@ -10,3 +10,4 @@ export { DropDown } from './DropDown';
 export { AdventureResortSvg } from './AdventureResortSvg';
 export { AdventureCampingSvg } from './AdventureCampingSvg';
 export { AdventureSeaSvg } from './AdventureSeaSvg';
+export { Star } from './Star';

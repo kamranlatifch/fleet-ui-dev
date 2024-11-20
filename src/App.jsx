@@ -1,4 +1,4 @@
-import { Navbar, Hero, AdventureCarousal } from '@components';
+import { Navbar, Hero, AdventureCarousal, TravelCarousal } from '@components';
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Navbar />
       <Hero />
       <AdventureCarousal />
+      <TravelCarousal />
     </>
   );
 }
