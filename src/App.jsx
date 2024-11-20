@@ -4,6 +4,7 @@ import {
   AdventureCarousal,
   TravelCarousal,
   HowItWork,
+  StunningWork,
 } from '@components';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <AdventureCarousal />
       <TravelCarousal />
       <HowItWork />
+      <StunningWork />
     </>
   );
 }
