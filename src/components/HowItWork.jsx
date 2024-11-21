@@ -1,5 +1,5 @@
 import React from 'react';
-import Image1 from '../assets/images//IconBox1.png';
+import Image1 from '../assets/images/IconBox1.png';
 import Image2 from '../assets/images/IconBox2.png';
 import Image3 from '../assets/images/IconBox3.png';
 import { HowItWorkCard } from './HowItWorkCard';
