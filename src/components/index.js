@@ -7,3 +7,4 @@ export { TravelCarousal } from './TravelCarousal';
 export { HowItWork } from './HowItWork';
 export { HowItWorkCard } from './HowItWorkCard';
 export { StunningWork } from './StunningWork';
+export { GoSomewhere } from './GoSomewhere';
