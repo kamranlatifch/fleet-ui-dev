@@ -8,6 +8,7 @@ import {
   GoSomewhere,
   Planning,
   PropertyType,
+  ExploreSection,
 } from '@components';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <GoSomewhere />
       <Planning />
       <PropertyType />
+      <ExploreSection />
     </>
   );
 }
