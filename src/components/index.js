@@ -9,3 +9,4 @@ export { HowItWorkCard } from './HowItWorkCard';
 export { StunningWork } from './StunningWork';
 export { GoSomewhere } from './GoSomewhere';
 export { Planning } from './Planning';
+export { PropertyType } from './PropertyType';
