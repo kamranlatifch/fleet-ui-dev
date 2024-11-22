@@ -6,6 +6,7 @@ import {
   HowItWork,
   StunningWork,
   GoSomewhere,
+  Planning,
 } from '@components';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <HowItWork />
       <StunningWork />
       <GoSomewhere />
+      <Planning />
     </>
   );
 }
