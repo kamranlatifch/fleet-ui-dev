@@ -7,6 +7,7 @@ import {
   StunningWork,
   GoSomewhere,
   Planning,
+  PropertyType,
 } from '@components';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <StunningWork />
       <GoSomewhere />
       <Planning />
+      <PropertyType />
     </>
   );
 }
