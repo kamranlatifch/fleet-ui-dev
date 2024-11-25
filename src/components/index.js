@@ -11,3 +11,5 @@ export { GoSomewhere } from './GoSomewhere';
 export { Planning } from './Planning';
 export { PropertyType } from './PropertyType';
 export { ExploreSection } from './ExploreSection';
+export { BestHost } from './BestHost';
+export { BestHostCard } from './BestHostCard';

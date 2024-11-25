@@ -9,6 +9,7 @@ import {
   Planning,
   PropertyType,
   ExploreSection,
+  BestHost,
 } from '@components';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Planning />
       <PropertyType />
       <ExploreSection />
+      <BestHost />
     </>
   );
 }
