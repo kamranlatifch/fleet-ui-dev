@@ -13,3 +13,4 @@ export { PropertyType } from './PropertyType';
 export { ExploreSection } from './ExploreSection';
 export { BestHost } from './BestHost';
 export { BestHostCard } from './BestHostCard';
+export { TravelKit } from './TravelKit';
