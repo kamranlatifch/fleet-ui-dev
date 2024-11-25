@@ -16,3 +16,6 @@ export { DashLine } from './DashLine';
 export { HouseSvg } from './HouseSvg';
 export { PlayButton } from './PlayButton';
 export { CategorySvg } from './CategorySvg';
+export { LocationSvg } from './LocationSvg';
+export { CalendarSvg } from './CalendarSvg';
+export { GuestSvg } from './GuestSvg';

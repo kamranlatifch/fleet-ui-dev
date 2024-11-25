@@ -51,7 +51,7 @@ const AdventureCarousal = () => {
   };
 
   return (
-    <div className='mt-[37.5rem] flex flex-col gap-8 px-4 py-8'>
+    <div className='mt-[37.5rem] lg:mt-[6.25rem] flex flex-col gap-8 px-4 py-8'>
       <div className='flex flex-col justify-center items-center text-center gap-3'>
         <h2>Let’s go on an adventure</h2>
         <p className='sub__title'>Find and book a great experience.</p>
@@ -59,7 +59,7 @@ const AdventureCarousal = () => {
 
       <div
         ref={scrollContainerRef}
-        className='flex flex-row overflow-auto scroll-smooth xl:justify-center scrollbar-hide gap-4 lg:gap-8 lg:px-[80px]'
+        className='flex flex-row overflow-auto scroll-smooth xl:justify-center scrollbar-hide gap-4 lg:gap-8 lg:px-14'
       >
         {data?.map((item) => (
           <AdventureCard

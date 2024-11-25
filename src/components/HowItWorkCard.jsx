@@ -6,7 +6,7 @@ const HowItWorkCard = ({ image, title, text }) => {
       <img
         src={image}
         alt={title}
-        className='w-[256px] h-[230px] object-cover rounded-lg'
+        className='w-[16rem] h-[14.375rem] object-cover rounded-lg'
       />
 
       <h3>{title}</h3>

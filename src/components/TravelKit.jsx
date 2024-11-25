@@ -41,9 +41,9 @@ const TravelKit = () => {
 
   return (
     <div className='flex justify-center items-center pb-16'>
-      <div className='flex flex-col gap-8 lg:gap-20 px-10 xl:px-20 lg:max-w-[944px] xl:max-w-[1280px]'>
+      <div className='flex flex-col gap-8 lg:gap-20 px-10 xl:px-20 lg:max-w-[59rem] xl:max-w-[80rem]'>
         <div className='flex flex-col lg:flex-row lg:justify-between gap-8 md:items-start  lg:items-end'>
-          <div className='flex flex-col lg:max-w-[248px]'>
+          <div className='flex flex-col lg:max-w-[15.5rem]'>
             <p className='uppercase text-xs font-bold'>fleet travel ui kit</p>
             <h2>Book a ticket and just leave</h2>
           </div>
@@ -52,7 +52,7 @@ const TravelKit = () => {
         <div className='flex relative'>
           {isVideoPlaying ? (
             <video
-              className='rounded-2xl w-full min-h-[480px] lg:min-w-[844px] xl:min-w-[1120px]'
+              className='rounded-2xl w-full min-h-[30rem] lg:min-w-[52.75rem] xl:min-w-[70rem]'
               controls
               autoPlay
               src={videoUrl}
@@ -62,7 +62,7 @@ const TravelKit = () => {
               <img
                 src={SmallImage}
                 alt='Travel Kit'
-                className='rounded-2xl w-full max-h-[580px] lg:hidden'
+                className='rounded-2xl w-full max-h-[36.25rem] lg:hidden'
               />
               <img
                 src={LargeImage}

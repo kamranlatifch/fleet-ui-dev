@@ -5,13 +5,15 @@ import UserAvatar from '../assets/images/userAvatar.png';
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <div className='flex flex-row justify-between items-center px-8 pt-10'>
+    <div className='flex flex-row justify-between items-center px-8 lg:px-20 xl:px-[10rem] pt-10'>
       <div className='flex flex-row justify-between items-center  gap-10'>
         <div className='flex flex-row gap-2'>
           <Logo />
           <h3>fleet</h3>
         </div>
-        <div className='hidden lg:block  w-[1px] h-12 bg-slate-500 '> </div>
+        <div className='hidden lg:block  w-[0.0625rem] h-12 bg-slate-500 '>
+          {' '}
+        </div>
 
         <div className='hidden lg:flex justify-center gap-2 items-center font-dmSans text-textSecondary text-sm font-bold'>
           Travelers
@@ -30,14 +32,14 @@ const Navbar = () => {
             Language
           </h5>
         </div>
-        <div className='hidden lg:block px-4 py-3 border-[2px] rounded-[90px]'>
+        <div className='hidden lg:block px-4 py-3 border-[0.125rem] rounded-[5.625rem]'>
           <h5 className='font-dmSans text-textPrimary text-sm font-bold'>
             List your Property
           </h5>
         </div>
         <div className='relative'>
           <BellSvg />
-          <div className='absolute bg-emeraldGreen w-3 h-3  rounded-[8px] -top-2 -right-1'></div>
+          <div className='absolute bg-emeraldGreen w-3 h-3  rounded-[0.5rem] -top-2 -right-1'></div>
         </div>
         <AvatarWrapper image={UserAvatar} size={8} />
         <div

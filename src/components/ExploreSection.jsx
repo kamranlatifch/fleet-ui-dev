@@ -98,10 +98,12 @@ const ExploreSection = () => {
   };
   return (
     <div className='flex flex-col lg:p-10 xl:p-20 lg:justify-center lg:items-center'>
-      <div className='flex flex-col bg-tertiary py-16 pl-8 gap-10 lg:p-10 xl:px-20 xl:py-[112px] lg:rounded-3xl lg:max-w-[944px] xl:max-w-[1280px]'>
+      <div className='flex flex-col bg-tertiary py-16 pl-8 gap-10 lg:p-10 xl:px-20 xl:py-[7rem] lg:rounded-3xl lg:max-w-[59rem] xl:max-w-[80rem]'>
         <div className='flex flex-col gap-3 text-center'>
-          <h2>Explore nearby</h2>
-          <p>10,789 beautiful places to go</p>
+          <h2 className='lg:text-5xl'>Explore nearby</h2>
+          <p className='lg:text-2xl lg:font-normal'>
+            10,789 beautiful places to go
+          </p>
         </div>
 
         <div
