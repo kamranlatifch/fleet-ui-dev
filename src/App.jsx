@@ -11,6 +11,7 @@ import {
   ExploreSection,
   BestHost,
   TravelKit,
+  BrowseByCategory,
 } from '@components';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <ExploreSection />
       <BestHost />
       <TravelKit />
+      <BrowseByCategory />
     </>
   );
 }

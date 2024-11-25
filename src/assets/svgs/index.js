@@ -15,3 +15,4 @@ export { HowItWorkHR } from './HowItWorkHR';
 export { DashLine } from './DashLine';
 export { HouseSvg } from './HouseSvg';
 export { PlayButton } from './PlayButton';
+export { CategorySvg } from './CategorySvg';
