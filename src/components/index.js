@@ -15,3 +15,4 @@ export { BestHost } from './BestHost';
 export { BestHostCard } from './BestHostCard';
 export { TravelKit } from './TravelKit';
 export { BrowseByCategory } from './BrowseByCategory';
+export { Footer } from './Footer';

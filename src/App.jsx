@@ -12,6 +12,7 @@ import {
   BestHost,
   TravelKit,
   BrowseByCategory,
+  Footer,
 } from '@components';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <BestHost />
       <TravelKit />
       <BrowseByCategory />
+      <Footer />
     </>
   );
 }
