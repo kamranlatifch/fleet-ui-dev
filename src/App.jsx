@@ -10,6 +10,7 @@ import {
   PropertyType,
   ExploreSection,
   BestHost,
+  TravelKit,
 } from '@components';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <PropertyType />
       <ExploreSection />
       <BestHost />
+      <TravelKit />
     </>
   );
 }
