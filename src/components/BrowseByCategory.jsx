@@ -90,7 +90,7 @@ const BrowseByCategory = () => {
     }
   };
   return (
-    <div className='flex flex-col  py-16 pl-8 gap-10 lg:gap-12 lg:pl-20 xl:pl-[160px]'>
+    <div className='flex flex-col  py-16 pl-8 gap-10 lg:gap-12 lg:pl-20 xl:pl-[10rem]'>
       <div className='flex flex-col gap-3 text-center'>
         <h2>Browse by category</h2>
         <p className='lg:text-2xl'>Let’s go on an adventure</p>

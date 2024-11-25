@@ -54,9 +54,9 @@ const BestHost = () => {
     }
   };
   return (
-    <div className='flex flex-col py-16 lg:px-20 lg:items-center xl:px-[160px]  gap-10 lg:gap-12 '>
-      <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 px-8 lg:px-0 lg:w-full lg:max-w-[864px] xl:max-w-[1120px]'>
-        <h2 className='text-[32px] md:text-[48px] gap-6 lg:flex'>
+    <div className='flex flex-col py-16 lg:px-20 lg:items-center xl:px-[10rem]  gap-10 lg:gap-12 '>
+      <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 px-8 lg:px-0 lg:w-full lg:max-w-[54rem] xl:max-w-[70rem]'>
+        <h2 className='text-[2rem] md:text-[3rem] gap-6 lg:flex'>
           Best hosts of the{' '}
           <span className='text-secondary flex items-center'>
             month{' '}
@@ -85,7 +85,7 @@ const BestHost = () => {
 
       <div
         ref={scrollContainerRef}
-        className='flex gap-4 lg:gap-8  overflow-x-auto pl-8 scroll-smooth  scrollbar-hide lg:pl-0 lg:max-w-[864px] xl:max-w-[1120px]'
+        className='flex gap-4 lg:gap-8  overflow-x-auto pl-8 scroll-smooth  scrollbar-hide lg:pl-0 lg:max-w-[54rem] xl:max-w-[70rem]'
       >
         {data.map((item) => (
           <div key={item.id}>

@@ -94,9 +94,9 @@ const GoSomewhere = () => {
   ];
   return (
     <div className='flex flex-col py-16 lg:px-10  gap-12 md:justify-center md:items-center '>
-      <div className='flex flex-col lg:bg-tertiary p-10 rounded-[24px] gap-12 lg:max-w-[944px]  xl:max-w-[1280px]'>
+      <div className='flex flex-col lg:bg-tertiary p-10 rounded-[1.5rem] gap-12 lg:max-w-[59rem]  xl:max-w-[80rem]'>
         <div className='flex flex-col gap-3 md:justify-center md:text-center lg:justify-start lg:items-start'>
-          <h2 className='text-[40px] md:text-[48px]'>Go somewhere</h2>
+          <h2 className='text-[2.5rem] md:text-[3rem]'>Go somewhere</h2>
           <p className='sub__title  text-2xl'>Let’s go on an adventure</p>
         </div>
 
@@ -113,24 +113,24 @@ const GoSomewhere = () => {
 
         <div className='hidden lg:flex flex-row  justify-between'>
           <div className='flex flex-row gap-4'>
-            <div className='flex gap-2 rounded-full border text-textBase bg-textPrimary justify-center items-center px-3 py-[6px]'>
+            <div className='flex gap-2 rounded-full border text-textBase bg-textPrimary justify-center items-center px-3 py-[0.375rem]'>
               <Star />
               <span className='font-dmSans font-bold text-sm'>Featured</span>
             </div>
-            <div className='flex gap-2 rounded-full border justify-center items-center px-3 py-[6px]'>
+            <div className='flex gap-2 rounded-full border justify-center items-center px-3 py-[0.375rem]'>
               <Star />
               <span className='font-dmSans font-bold text-sm text-textSecondary'>
                 {' '}
                 Family-friendly
               </span>
             </div>
-            <div className='flex gap-2 rounded-full border justify-center items-center px-3 py-[6px]'>
+            <div className='flex gap-2 rounded-full border justify-center items-center px-3 py-[0.375rem]'>
               <Star />
               <span className='font-dmSans font-bold text-sm text-textSecondary'>
                 On sale
               </span>
             </div>
-            <div className='flex gap-2 rounded-full border justify-center items-center px-3 py-[6px]'>
+            <div className='flex gap-2 rounded-full border justify-center items-center px-3 py-[0.375rem]'>
               <Star />
               <span className='font-dmSans font-bold text-sm text-textSecondary'>
                 Sub nav
@@ -138,7 +138,7 @@ const GoSomewhere = () => {
             </div>
           </div>
 
-          <div className='flex justify-between items-center  bg-primary px-2 py-2 rounded-full  min-w-[256px]'>
+          <div className='flex justify-between items-center  bg-primary px-2 py-2 rounded-full  min-w-[16rem]'>
             <p className='text-textPrimary font-medium'>Featured</p>
             <DropDown className='border rounded-full w-8 h-8' />
           </div>

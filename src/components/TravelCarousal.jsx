@@ -47,9 +47,9 @@ const TravelCarousal = () => {
   const currentItem = carouselData[currentIndex];
 
   return (
-    <div className='flex flex-col gap-16 px-8 lg:px-[80px] xl:px-[160px] py-16 justify-center lg:items-center'>
-      <div className='flex flex-col gap-3 md:justify-center md:text-center md:px-[113px]  xl:px-[240px]'>
-        <h2 className='text-[40px] md:text-[48px]'>
+    <div className='flex flex-col gap-16 px-8 lg:px-[5rem] xl:px-[10rem] py-16 justify-center lg:items-center'>
+      <div className='flex flex-col gap-3 md:justify-center md:text-center md:px-[7.0625rem]  xl:px-[15rem]'>
+        <h2 className='text-[2.5rem] md:text-[3rem]'>
           Travel to make memories all around the world
         </h2>
         <p className='sub__title  text-2xl'>
@@ -57,8 +57,8 @@ const TravelCarousal = () => {
         </p>
       </div>
 
-      <div className='flex flex-col md:flex-row gap-16 lg:gap-[128px] xl:gap-[274px] lg:max-w-[864px] xl:max-w-[1120px]'>
-        <div className='flex flex-col gap-10 xl:max-w-[352px]'>
+      <div className='flex flex-col md:flex-row gap-16 lg:gap-[8rem] xl:gap-[17.125rem] lg:max-w-[54rem] xl:max-w-[70rem]'>
+        <div className='flex flex-col gap-10 xl:max-w-[22rem]'>
           <div className='flex flex-col gap-4'>
             <span className='badge bg-skyBlue'>01</span>
             <h3 className='mt-2'>Find trips that fit a flexible lifestyle</h3>
@@ -93,7 +93,7 @@ const TravelCarousal = () => {
         <div className='relative '>
           <img
             src={currentItem.image}
-            className='rounded-[32px] w-full h-[610px]  md:h-[700px] md:min-w-[320px] lg:min-w-[454px] lg:min-h-[700px] xl:max-w-[454px] xl:min-h-[700px]  z-0 '
+            className='rounded-[2rem] w-full h-[38.125rem]  md:h-[43.75rem] md:min-w-[20rem] lg:min-w-[28.375rem] lg:min-h-[43.75rem] xl:max-w-[28.375rem] xl:min-h-[43.75rem]  z-0 '
             alt='Travel Destination'
           />
 
@@ -112,7 +112,7 @@ const TravelCarousal = () => {
             </div>
           </div>
 
-          <div className='md:hidden absolute bottom-6 right-6 left-6 flex bg-hero-gradiant shadow-primaryShadow rounded-[80px] px-8 py-4 gap-4'>
+          <div className='md:hidden absolute bottom-6 right-6 left-6 flex bg-hero-gradiant shadow-primaryShadow rounded-[5rem] px-8 py-4 gap-4'>
             <AvatarWrapper image={currentItem.avatar} size={12} />
             <div className='flex flex-col gap-1'>
               <p className='font-poppins font-medium text-base text-textPrimary'>
@@ -127,7 +127,7 @@ const TravelCarousal = () => {
             </div>
           </div>
 
-          <div className='hidden absolute top-[270px] -left-[42px] xl:top-[273px] xl:-left-[82px] w-[256px]  md:flex bg-hero-gradiant shadow-mdCardShadow rounded-[80px] px-8 py-4 gap-4'>
+          <div className='hidden absolute top-[16.875rem] -left-[2.625rem] xl:top-[17.0625rem] xl:-left-[5.125rem] w-[16rem]  md:flex bg-hero-gradiant shadow-mdCardShadow rounded-[5rem] px-8 py-4 gap-4'>
             <AvatarWrapper image={Avatar1} size={12} />
             <div className='flex flex-col gap-1'>
               <p className='font-poppins font-medium text-base text-textPrimary'>
@@ -141,7 +141,7 @@ const TravelCarousal = () => {
               </div>
             </div>
           </div>
-          <div className='hidden absolute top-[412px] -right-[10px] lg:-right-[42px] xl:top-[338px] xl:-right-[79px] w-[256px]  md:flex bg-hero-gradiant shadow-mdCardShadow rounded-[80px] px-8 py-4 gap-4'>
+          <div className='hidden absolute top-[25.75rem] -right-[0.625rem] lg:-right-[2.625rem] xl:top-[21.125rem] xl:-right-[4.9375rem] w-[16rem]  md:flex bg-hero-gradiant shadow-mdCardShadow rounded-[5rem] px-8 py-4 gap-4'>
             <AvatarWrapper image={Avatar2} size={12} />
             <div className='flex flex-col gap-1'>
               <p className='font-poppins font-medium text-base text-textPrimary'>
@@ -155,7 +155,7 @@ const TravelCarousal = () => {
               </div>
             </div>
           </div>
-          <div className='hidden absolute top-[520px] lg:top-[573px] left-[30px] lg:left-[99px] xl:top-[499px] xl:-left-[146px] w-[256px]  md:flex bg-hero-gradiant shadow-mdCardShadow rounded-[80px] px-8 py-4 gap-4'>
+          <div className='hidden absolute top-[32.5rem] lg:top-[35.8125rem] left-[1.875rem] lg:left-[6.1875rem] xl:top-[31.1875rem] xl:-left-[9.125rem] w-[16rem]  md:flex bg-hero-gradiant shadow-mdCardShadow rounded-[5rem] px-8 py-4 gap-4'>
             <AvatarWrapper image={Avatar3} size={12} />
             <div className='flex flex-col gap-1'>
               <p className='font-poppins font-medium text-base text-textPrimary'>

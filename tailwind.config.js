@@ -58,8 +58,11 @@ module.exports = {
 
       backgroundImage: {
         'signup-bg': "url('/src/assets/images/heroImage.png')",
+        'signup-lg-bg': "url('/src/assets/images/hero1Image.png')",
         'custom-gradient':
           'linear-gradient(180deg, #F4F5F6 87.16%, rgba(244, 245, 246, 0) 137.55%)',
+        'lg-hero-image-gradient':
+          'linear-gradient(130.48deg, rgba(236, 248, 252, 0.84) 22.56%, rgba(236, 248, 252, 0) 69.73%)',
 
         'hero-gradiant':
           'linear-gradient(83.59deg, #FCFCFD 36.52%, rgba(252, 252, 253, 0.83) 98.8%)',

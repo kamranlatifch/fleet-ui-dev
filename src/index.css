@@ -31,5 +31,8 @@ body {
   .badge {
     @apply w-[38px] h-6 rounded-full px-3 py-[2px] font-poppins text-sm font-medium text-textBase;
   }
+  a {
+    @apply font-poppins text-sm font-normal text-textSecondary;
+  }
   /*  */
 }

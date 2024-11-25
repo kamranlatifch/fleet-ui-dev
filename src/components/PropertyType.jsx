@@ -58,8 +58,8 @@ const PropertyType = () => {
     }
   };
   return (
-    <div className='flex flex-col pl-8 lg:pl-20  xl:pl-[160px] py-8 gap-10'>
-      <div className='flex flex-col lg:flex-row lg:justify-between items-center lg:max-w-[864px] xl:max-w-[1120px]'>
+    <div className='flex flex-col pl-8 lg:pl-20  xl:pl-[10rem] py-8 gap-10'>
+      <div className='flex flex-col lg:flex-row lg:justify-between items-center lg:max-w-[54rem] xl:max-w-[70rem]'>
         <div className='flex flex-col gap-3'>
           <h2>Browse by property type</h2>
           <p>Let’s go on an adventure</p>
