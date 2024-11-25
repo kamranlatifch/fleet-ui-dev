@@ -40,7 +40,7 @@ const TravelKit = () => {
   };
 
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center pb-16'>
       <div className='flex flex-col gap-8 lg:gap-20 px-10 xl:px-20 lg:max-w-[944px] xl:max-w-[1280px]'>
         <div className='flex flex-col lg:flex-row lg:justify-between gap-8 md:items-start  lg:items-end'>
           <div className='flex flex-col lg:max-w-[248px]'>
