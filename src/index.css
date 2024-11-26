@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: '#FCFCFD';
+}
 @layer components {
   h1 {
     @apply font-bold font-dmSans text-[4rem] text-textPrimary;
@@ -16,6 +20,19 @@
   }
   .sub__title {
     @apply font-poppins font-normal text-base text-textSecondary;
+  }
+
+  button {
+    @apply font-dmSans rounded-[90px] px-6 py-4 bg-secondary text-textBase;
+  }
+  .button2__wrapper {
+    @apply font-dmSans font-bold text-sm text-center;
+  }
+  .badge {
+    @apply w-[38px] h-6 rounded-full px-3 py-[2px] font-poppins text-sm font-medium text-textBase;
+  }
+  a {
+    @apply font-poppins text-sm font-normal text-textSecondary;
   }
   /*  */
 }
