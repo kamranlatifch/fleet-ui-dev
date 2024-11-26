@@ -1,28 +1,3 @@
-// import React from 'react';
-// import SmallImage from '../assets/images/TKImg1.png';
-// import LargeImage from '../assets/images/TKImg2.png';
-// import { PlayButton } from '@assets/svgs';
-// const TravelKit = () => {
-//   return (
-//     <div className='flex flex-col gap-8 px-10'>
-//       <div className='flex flex-col gap-8'>
-//         <div className='flex flex-col'>
-//           <p className='uppercase text-xs font-bold'>fleet travel ui kit</p>
-//           <h2>Book a ticket and just leave</h2>
-//         </div>
-//         <button>Book now</button>
-//       </div>
-//       <div className='flex relative'>
-//         <img src={SmallImage} alt='' className='rounded-2xl w-full' />
-//         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-//           <PlayButton />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export { TravelKit };
 import React, { useState } from 'react';
 import SmallImage from '../assets/images/TKImg1.png';
 import LargeImage from '../assets/images/TKImg2.png';

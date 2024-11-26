@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <>
+    <div className='xl:max-w-[1440px] m-auto'>
       <Navbar />
       <Hero />
       <AdventureCarousal />
@@ -32,7 +32,7 @@ function App() {
       <TravelKit />
       <BrowseByCategory />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HowItWorkHR = (className) => {
+const HowItWorkHR = ({ className }) => {
   return (
     <svg
       width='3'
